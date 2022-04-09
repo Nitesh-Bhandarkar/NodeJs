@@ -1,22 +1,24 @@
-Data types in JS:
---> String
---> Number
---> Boolean
---> Undefined
---> Null
---> Symbol
+## Data types in JS:
+- String
+- Number
+- Boolean
+- Undefined
+- Null
+- Symbol
 
-Object type in JS
+## Object type in JS
 
 const car = {}
 
-**** Cloning an Object ****
+## Cloning an Object
 
 const obj1 = Object.assign({}, obj2);
 
 Obj2 is cloned as obj1
 
-**** Array Operations ****
+## Array Operations
+
+```
 
 const fruitBasket = ['apple','banana','orange']
 // get the length of the Array
@@ -42,3 +44,5 @@ console.log(fruitBasket);
 fruitBasket.shift()
 console.log(fruitBasket);
 // ["apple", "banana", "orange"]
+
+```
